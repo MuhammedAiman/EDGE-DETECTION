@@ -1,7 +1,6 @@
 # EDGE-DETECTION
 # EX 6: EDGE-DETECTION
-# NAME : MUHAMMED AIMAN S
-# REG NO : 212224240097
+
 ## Aim:
 To perform edge detection using Sobel, Laplacian, and Canny edge detectors.
 
@@ -27,11 +26,15 @@ Using Laplacian operator from cv2,detect the edges of the image and Using Canny 
 ## Program:
 ## ORIGINAL IMAGE:
 ```
+
+# NAME : MUHAMMED AIMAN S
+# REG NO : 212224240097
+
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread(r'C:\Users\admin\Desktop\DIPT\dipp img.jpg')
+image = cv2.imread(r'passportpicaiman.jpg')
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.title('Original Image')
@@ -63,22 +66,26 @@ plt.axis('off')
 ## Output:
 ### ORIGINAL IMAGE
 
-<img width="552" height="572" alt="image" src="https://github.com/user-attachments/assets/de38d808-4f94-4923-afc8-353ecfa554ef" />
+<img width="518" height="572" alt="image" src="https://github.com/user-attachments/assets/e133f573-7c91-40b7-b759-ae6139f070e0" />
+
 
 
 
 ### SOBEL EDGE DETECTOR
 
-<img width="560" height="577" alt="image" src="https://github.com/user-attachments/assets/44fd3fde-e6e5-4618-8afb-60d8b802b514" />
+<img width="536" height="577" alt="image" src="https://github.com/user-attachments/assets/31d5ae21-18dc-4b3a-b392-3c3b585dd8eb" />
+
 
 
 ### LAPLACIAN EDGE DETECTOR
-<img width="565" height="576" alt="image" src="https://github.com/user-attachments/assets/bdfadbe2-2d35-44c5-9e4b-f0592e3ede30" />
+
+<img width="518" height="577" alt="image" src="https://github.com/user-attachments/assets/4d744e03-e154-40ba-8102-eb8d18a38cd9" />
 
 
 
 ### CANNY EDGE DETECTOR
-<img width="593" height="566" alt="image" src="https://github.com/user-attachments/assets/4d64ccae-ca66-445b-a9a5-cd4f9ade3a8c" />
+<img width="554" height="589" alt="Screenshot 2025-10-25 134246" src="https://github.com/user-attachments/assets/f96e30ab-8c8c-4160-aedd-20c169d4e063" />
+
 
 ## Result:
 Thus the edges are detected using Sobel, Laplacian, and Canny edge detectors.
